@@ -1,3 +1,4 @@
+#include <cstdlib>
 bool isPalindrome(int x) {
   if (x < 0) {
     return false;
@@ -14,6 +15,6 @@ bool isPalindrome(int x) {
 }
 
 int main(int argc, char *argv[]) {
-  isPalindrome(int(argv[1]));
+  isPalindrome(atoi(argv[1]));
   return 0;
 }
